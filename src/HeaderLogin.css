@@ -1,0 +1,136 @@
+.headerr {
+  /* position: sticky;
+  top: 0;
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  z-index: 999; */
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  min-height: 100%;
+  width: 1128px;
+}
+
+.headerr > a {
+  display: flex;
+}
+
+.logo {
+  color: #0a66c2;
+  margin: 0 0.4rem 0 -0.4rem;
+}
+
+.logo_wrapper {
+  display: flex !important;
+}
+
+.logo_icon {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo_icon > svg {
+  height: 2.563rem;
+  width: 2.563rem;
+}
+
+.header_left {
+  opacity: 1;
+  flex-grow: 1;
+  z-index: 100;
+}
+
+.header_search {
+  position: relative;
+  max-width: 280px;
+}
+
+.header_typehead {
+  display: block;
+  width: 100%;
+  z-index: 0;
+  position: relative;
+}
+
+.header_typehead > input {
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  line-height: 1.75;
+  font-weight: 400;
+  font-size: 14px;
+  height: 34px;
+  padding: 0 0.5rem 0 40px;
+  background-color: #eef3f8;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.search_icon {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border-radius: 0 2px 2px 0;
+  width: 40px;
+  height: 34px;
+  margin: 0;
+  box-shadow: none;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.15s;
+}
+
+.search_icon1 {
+  color: rgb(0 0 0 / 60%);
+  display: contents;
+  overflow: hidden;
+  position: relative;
+  height: 16px;
+  width: 16px;
+  font-size: 1rem;
+}
+
+.header_right {
+  display: flex;
+  margin-left: auto;
+  min-height: 52px;
+}
+
+.headerOption_iconn {
+  height: 24px;
+  width: 24px;
+}
+
+.AppIcon {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.premium_link {
+  max-width: 100px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: center;
+  align-items: center;
+  background: #00000000;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75rem;
+  justify-content: center;
+  line-height: 1.5;
+  min-height: 52px;
+  min-width: 80px;
+  position: relative;
+}
+
+.premium {
+  color: #915907;
+}

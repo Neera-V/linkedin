@@ -1,0 +1,46 @@
+.headerOption1 {
+  width: 80px;
+}
+
+.headerOption11 {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 64px;
+  height: 52px;
+  display: flex;
+  margin-right: 8px;
+  margin-left: 8px;
+  color: gray;
+  cursor: pointer;
+}
+
+.headerOption_title1 {
+  line-height: 1.25;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.headerOption_icon1 {
+  opacity: 1;
+  display: flex;
+  height: 38.47%;
+  width: 28.13%;
+}
+
+.headerOption11 > Avatar {
+  opacity: 1;
+  display: flex;
+  height: 24px;
+  width: 24px;
+}
+
+.headerOption11:hover {
+  color: black;
+}
+
+.headerOption_icon1:hover {
+  color: black;
+}

@@ -1,0 +1,112 @@
+.header1 {
+  padding-bottom: 16px;
+  padding-top: 12px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: auto;
+  max-width: 1128px;
+}
+
+/* .header_left {
+  width: 135px;
+  height: 34px;
+  z-index: 100;
+  margin-right: auto;
+} */
+
+.header1_right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.horizontal_line {
+  height: 37px;
+  margin-right: 4px;
+}
+
+.header1_icon {
+  display: flex;
+  color: #0a66c2;
+  height: 33.75px;
+  align-items: center;
+}
+
+.header2_icon {
+  display: flex;
+  margin-right: 4px;
+  justify-content: flex-end;
+}
+
+.logged1 {
+  column-gap: 8px;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  min-width: 100px;
+  flex-shrink: 0;
+  display: flex;
+  order: 3;
+}
+
+.header_join1 {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  text-decoration-line: none;
+  height: min-content;
+  border-radius: 24px;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header_join1:hover {
+  border-radius: 25px;
+  background-color: rgb(235, 233, 233);
+  padding-right: 24px;
+}
+
+.header_signin1 {
+  box-shadow: 0 0 0 1px #0a66c2;
+  background-color: rgba(0, 0, 0, 0);
+  color: #0a66c2;
+  cursor: pointer;
+  text-decoration-line: none;
+  height: min-content;
+  border-radius: 24px;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header_signin1:hover {
+  background-color: #e9f4ff;
+  box-shadow: 0 0 0 1px #2124d3;
+  color: #2124d3;
+}
+
+.header_signout {
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #0a66c2;
+  color: #0a66c2;
+  padding: 12px 24px;
+  border-radius: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.header_signout:hover {
+  background-color: #e9f4ff;
+  box-shadow: 0 0 0 1px #2124d3;
+  color: #2124d3;
+}

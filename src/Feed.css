@@ -1,0 +1,88 @@
+.feed {
+  position: relative;
+  flex: 0.6;
+  margin: 0 20px;
+  top: 28px;
+}
+
+.feed_inputContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 0.8rem;
+  margin: 0 0 0.5rem;
+  border: none !important;
+  box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 8%);
+}
+
+.feed_input_box {
+  display: flex;
+  align-items: center;
+  margin: 8px 16px 0;
+  border-radius: 0.8rem;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.6);
+  z-index: 4;
+  position: relative;
+}
+
+.feed_input {
+  display: flex;
+  height: 48px;
+  background-color: #ffffff00;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0.25rem 0;
+  flex-grow: 1;
+  max-width: none;
+  justify-content: left;
+  line-height: 1.5;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 35px !important;
+  padding: 10px 1rem !important;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.input_display {
+  font-size: 0.9rem;
+  position: absolute;
+}
+
+.feed_input > form {
+  display: flex;
+  width: 100%;
+  padding-left: 80px;
+}
+
+.feed_input > form > input {
+  border: none;
+  flex: 1;
+  margin-left: 10px;
+  outline-width: 0;
+  font-weight: 600;
+}
+
+.feed_input > form > button {
+  display: none;
+}
+
+.feed_inputOptions {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feed_avatar {
+  margin-right: 0.5rem;
+  line-height: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.9);
+  border: none;
+  box-shadow: none;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  background-clip: content-box;
+}
